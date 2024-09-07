@@ -1,8 +1,12 @@
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
+
 function App() {
   return (
-    <div className="grid place-items-center h-screen text-red-800">
-      <h1 className="text-xl font-bold">Hello world</h1>
-    </div>
+    <header className="bg-zinc-800">
+      <Navbar />
+      <Hero />
+    </header>
   );
 }
 
