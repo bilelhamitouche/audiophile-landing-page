@@ -1,6 +1,7 @@
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import ProductCategories from "./components/ProductCategories";
+import ProductsList from "./components/ProductsList";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Hero />
       </header>
       <ProductCategories />
+      <ProductsList />
     </>
   );
 }
