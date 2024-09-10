@@ -2,7 +2,7 @@ import HeadphoneImage from "../assets/headphone.png";
 
 function Hero() {
   return (
-    <section className="flex gap-40 justify-center items-center p-8 mx-auto md:container bg-zinc-800">
+    <section className="flex flex-col gap-10 justify-center items-center p-8 mx-auto sm:flex-row sm:gap-40 md:container bg-zinc-800">
       <div className="flex flex-col gap-8">
         <span className="tracking-widest text-gray-400 uppercase">
           New product
@@ -22,7 +22,7 @@ function Hero() {
       <img
         src={HeadphoneImage}
         alt="headphone image"
-        className="object-fill w-4/6"
+        className="object-fill w-4/6 sm:w-3/6"
       />
     </section>
   );
