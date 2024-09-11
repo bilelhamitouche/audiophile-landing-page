@@ -27,6 +27,19 @@ function ProductsList() {
           </a>
         </div>
       </div>
+      <div className="flex relative flex-col pl-24 bg-gray-300 rounded-lg sm:flex-row">
+        <div className="flex flex-col gap-8 justify-center items-start">
+          <h2 className="text-6xl font-semibold uppercase">zx7 speaker</h2>
+          <a className="py-4 px-8 text-black uppercase bg-transparent border-2 border-black text-md">
+            see product
+          </a>
+        </div>
+        <img
+          src={SpeakerImage}
+          alt="speaker image"
+          className="object-fill w-3/6"
+        />
+      </div>
     </section>
   );
 }
