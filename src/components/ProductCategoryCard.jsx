@@ -12,11 +12,11 @@ function ProductCategoryCard({ productCategoryName, productCategoryImage }) {
         <h3 className="text-lg font-semibold text-black uppercase">
           {productCategoryName}
         </h3>
-        <a className="flex gap-2 items-center">
+        <a className="flex gap-2 items-center group">
           <span className="font-normal text-gray-700 uppercase text-md">
             shop
           </span>
-          <PiCaretRightBold className="text-orange-500" />
+          <PiCaretRightBold className="text-orange-500 transition-transform group-hover:translate-x-1" />
         </a>
       </div>
     </div>

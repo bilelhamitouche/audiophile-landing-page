@@ -23,7 +23,7 @@ function ProductsList() {
             Upgrade to premium speakers that are phenomenally built to deliver
             truly remarkable sound.
           </p>
-          <a className="py-4 px-8 text-white uppercase bg-black text-md">
+          <a className="py-4 px-8 text-white uppercase bg-black border-2 border-black transition-colors cursor-pointer hover:text-black hover:bg-orange-400 text-md">
             see product
           </a>
         </div>
@@ -31,7 +31,7 @@ function ProductsList() {
       <div className="flex flex-col pl-24 bg-gray-300 rounded-lg sm:flex-row">
         <div className="flex flex-col gap-8 justify-center items-start">
           <h2 className="text-5xl font-semibold uppercase">zx7 speaker</h2>
-          <a className="py-4 px-8 text-black uppercase bg-transparent border-2 border-black text-md">
+          <a className="py-4 px-8 text-black uppercase bg-transparent border-2 border-black transition-colors cursor-pointer hover:text-white hover:bg-black text-md">
             see product
           </a>
         </div>
@@ -51,7 +51,7 @@ function ProductsList() {
           <h2 className="text-5xl font-semibold text-black uppercase">
             yx1 earphones
           </h2>
-          <a className="py-4 px-8 text-black uppercase bg-transparent border-2 border-black text-md">
+          <a className="py-4 px-8 text-black uppercase bg-transparent border-2 border-black transition-colors cursor-pointer hover:text-white hover:bg-black text-md">
             see product
           </a>
         </div>

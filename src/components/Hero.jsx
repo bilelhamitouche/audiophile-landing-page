@@ -15,9 +15,11 @@ function Hero() {
           Experience natural, lifelike audio and exceptional build quality made
           for the passionate music enthusiasts.
         </p>
-        <button className="self-start py-4 px-8 font-normal text-white uppercase bg-orange-400">
+        <a
+          href="#"
+          className="self-start py-4 px-8 font-normal text-white uppercase bg-orange-400 border-2 border-orange-400 transition-colors cursor-pointer hover:text-orange-400 hover:bg-zinc-800">
           See product
-        </button>
+        </a>
       </div>
       <img
         src={HeadphoneImage}

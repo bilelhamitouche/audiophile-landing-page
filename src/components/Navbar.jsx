@@ -8,34 +8,36 @@ function Navbar() {
         <li>
           <a
             href="#"
-            className="uppercase">
+            className="uppercase transition-opacity cursor-pointer hover:opacity-80">
             home
           </a>
         </li>
         <li>
           <a
             href="#"
-            className="uppercase">
+            className="uppercase transition-opacity cursor-pointer hover:opacity-80">
             headphones
           </a>
         </li>
         <li>
           <a
             href="#"
-            className="uppercase">
+            className="uppercase transition-opacity cursor-pointer hover:opacity-80">
             speakers
           </a>
         </li>
         <li>
           <a
             href="#"
-            className="uppercase">
+            className="uppercase transition-opacity cursor-pointer hover:opacity-80">
             earphones
           </a>
         </li>
       </ul>
-      <a href="cart">
-        <IoCartOutline className="text-2xl font-bold text-white" />
+      <a
+        href="cart"
+        className="p-1 rounded-full transition-colors hover:bg-zinc-700">
+        <IoCartOutline className="text-2xl font-bold text-white cursor-pointer" />
       </a>
     </nav>
   );
