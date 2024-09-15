@@ -2,7 +2,7 @@ import PersonWearingHeadsetImage from "../assets/person-wearing-headset.jpg";
 
 function About() {
   return (
-    <section className="flex flex-col gap-40 items-center p-8 py-28 mx-auto sm:container sm:flex-row">
+    <section className="flex flex-col gap-40 items-center p-8 py-28 mx-auto sm:container md:flex-row">
       <div className="flex flex-col gap-8 justify-center items-start">
         <h2 className="flex flex-col">
           <p className="text-5xl font-medium text-black uppercase">
@@ -24,7 +24,7 @@ function About() {
       <img
         src={PersonWearingHeadsetImage}
         alt="person image"
-        className="object-fill rounded-lg sm:w-3/6 w-6/6"
+        className="object-fill rounded-lg sm:w-3/6 md:w-full"
       />
     </section>
   );
