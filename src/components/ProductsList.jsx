@@ -4,7 +4,7 @@ import EarphoneImage from "../assets/earphone2.png";
 function ProductsList() {
   return (
     <section className="flex flex-col gap-10 p-8 mx-auto sm:container">
-      <div className="flex flex-col bg-orange-400 rounded-lg sm:flex-row">
+      <div className="flex flex-col justify-center items-center p-16 bg-orange-400 rounded-lg sm:flex-row">
         <img
           src={SpeakerImage}
           alt="speaker image"
@@ -41,13 +41,13 @@ function ProductsList() {
           className="object-fill w-3/6"
         />
       </div>
-      <div className="flex flex-col gap-8 rounded-lg sm:flex-row">
+      <div className="flex flex-col gap-8 rounded-lg sm:flex-row md:grid md:grid-cols-2 md:gap-8">
         <img
           src={EarphoneImage}
           alt="earphone image"
-          className="object-fill w-3/6 bg-black rounded-lg"
+          className="object-fill w-full bg-black rounded-lg max-w-fit"
         />
-        <div className="flex flex-col gap-8 justify-center items-start pr-28 pl-24 bg-gray-200 rounded-lg">
+        <div className="flex flex-col gap-8 justify-center items-start py-24 px-16 bg-gray-200 rounded-lg sm:items-start sm:pr-28 sm:pl-24 md:p-8 lg:pl-28">
           <h2 className="text-5xl font-semibold text-black uppercase">
             yx1 earphones
           </h2>
